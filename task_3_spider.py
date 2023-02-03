@@ -15,6 +15,7 @@ Known issues that  can be improved:
 - Description parsing for height and width can be improved with better regex
 - Height and Width order is not maintained for cases where data is of form WxH
 - Media field parsing is not 100% accurate
+- QA Check - 1 datapoint gives incorrect height width and media values due to cornercase for description parsing
 """
 
 import re
